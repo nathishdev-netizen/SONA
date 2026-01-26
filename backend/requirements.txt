@@ -1,0 +1,121 @@
+# ===========================
+# Core Framework
+# ===========================
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# ===========================
+# CrewAI & AI Agents
+# ===========================
+# Note: Using latest versions available for Python 3.14
+crewai>=0.11.2  # Latest that doesn't have strict Python version
+crewai-tools>=0.1.0
+
+# ===========================
+# LLM Providers
+# ===========================
+openai==1.58.1
+groq==0.11.0
+
+# ===========================
+# Opik - Observability & Evaluation
+# ===========================
+opik==0.3.0
+
+# ===========================
+# Vector Database
+# ===========================
+pinecone==5.0.1
+
+# ===========================
+# Database
+# ===========================
+sqlalchemy==2.0.36
+alembic==1.14.0
+psycopg2-binary==2.9.10
+asyncpg==0.30.0
+
+# ===========================
+# Redis (Optional)
+# ===========================
+redis==5.2.1
+aioredis==2.0.1
+
+# ===========================
+# Content Extraction
+# ===========================
+# Web scraping
+beautifulsoup4==4.12.3
+requests==2.32.3
+httpx==0.28.1
+playwright==1.49.1
+
+# PDF processing
+pypdf==5.1.0
+pdfplumber==0.11.4
+pymupdf==1.25.2
+
+# YouTube
+yt-dlp==2024.12.23
+youtube-transcript-api==0.6.3
+
+# Text processing
+python-docx==1.1.2
+python-magic==0.4.27
+
+# ===========================
+# Voice Processing
+# ===========================
+# Speech-to-Text (Whisper)
+openai-whisper==20240930
+faster-whisper==1.1.0
+
+# Text-to-Speech
+piper-tts==1.2.0
+TTS==0.22.0  # Coqui TTS
+
+# Audio processing
+pydub==0.25.1
+soundfile==0.12.1
+
+# ===========================
+# Embeddings & NLP
+# ===========================
+sentence-transformers==3.3.1
+tiktoken==0.8.0
+langchain==0.3.13
+langchain-openai==0.2.14
+langchain-community==0.3.13
+
+# ===========================
+# Utilities
+# ===========================
+python-dotenv==1.0.1
+python-multipart==0.0.20
+aiofiles==24.1.0
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
+# ===========================
+# Testing & Quality
+# ===========================
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+httpx==0.28.1  # For testing FastAPI
+
+# ===========================
+# Monitoring & Logging
+# ===========================
+python-json-logger==3.2.1
+structlog==24.4.0
+
+# ===========================
+# Development
+# ===========================
+black==24.10.0
+flake8==7.1.1
+mypy==1.13.0
+isort==5.13.2
